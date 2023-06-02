@@ -95,8 +95,8 @@
 
 
             <HBox alignment="BOTTOM_RIGHT" >
-                <Button text="Tracer">  </Button>
-                <Button text="Vider">  </Button>
+                <Button fx:id="tracer"  text="Tracer">  </Button>
+                <Button fx:id="vider" text="Vider">  </Button>
             </HBox>
 
 
