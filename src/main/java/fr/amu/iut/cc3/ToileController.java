@@ -34,6 +34,7 @@ public class ToileController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+
     }
 
     int getXRadarChart(double value, int axe ){

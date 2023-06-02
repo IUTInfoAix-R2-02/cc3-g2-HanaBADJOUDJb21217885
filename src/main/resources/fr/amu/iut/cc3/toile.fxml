@@ -68,6 +68,8 @@
 
             </HBox>
 
+    Button tracer;
+
             <HBox>
                 <Label  style="" text="Compétence 3 - Administrer"></Label>
                 <TextField maxWidth="40">
