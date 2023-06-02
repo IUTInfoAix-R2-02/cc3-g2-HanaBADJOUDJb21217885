@@ -94,14 +94,14 @@
             </HBox>
 
 
-
+            <HBox alignment="BOTTOM_RIGHT" >
+                <Button text="Tracer">  </Button>
+                <Button text="Vider">  </Button>
+            </HBox>
 
 
         </VBox>
     </HBox>
-    <HBox alignment="BOTTOM_RIGHT" >
-        <Button text="Tracer">  </Button>
-        <Button text="Vider">  </Button>
-    </HBox>
+
 
 </Pane>
