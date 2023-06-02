@@ -15,6 +15,8 @@ public class ToileApp extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("toile.fxml"));
         primaryStage.setResizable(false);
         primaryStage.setScene( new Scene(root) );
+        primaryStage.setWidth(800);
+        primaryStage.setHeight(500);
         primaryStage.show();
     }
 
