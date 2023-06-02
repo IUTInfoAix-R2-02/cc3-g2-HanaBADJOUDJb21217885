@@ -12,10 +12,11 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
 <Pane>
     <HBox id="scene" prefHeight="420.0" prefWidth="650.0" spacing="20.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" >
         <padding>
-        <Insets top="20" right="20" bottom="10" left="10" />
+        <Insets top="20" right="0" bottom="10" left="5" />
         </padding>
         <Pane style="-fx-: 20 px" prefHeight="400.0" prefWidth="400.0" >
 
@@ -40,18 +41,33 @@
         </Pane>
 
         <VBox alignment="CENTER_RIGHT" spacing="20">
-            <HBox>
-                <Label  style="" text="Compétence 1 - Réaliser"></Label>
-                <TextField maxWidth="40">
+            <HBox spacing="40">
+                <VBox alignment="CENTER_LEFT" >
+                    <HBox>
+                        <Label  text="Compétence 1 - Réaliser"></Label>
+                    </HBox>
+                </VBox>
+                <VBox alignment="TOP_RIGHT">
+                    <TextField prefWidth="60" prefHeight="30" >
 
-                </TextField>
-            </HBox>
-            <HBox>
-                <Label  style="" text="Compétence 2 - Optimiser"></Label>
-                <TextField maxWidth="40">
+                    </TextField>
+                </VBox>
 
-                </TextField>
             </HBox>
+            <HBox spacing="40">
+                <VBox alignment="CENTER_LEFT"  spacing="50">
+                    <HBox spacing="50">
+                        <Label  text="Compétence 2 - Optimiser"></Label>
+                    </HBox>
+                </VBox>
+                <VBox alignment="TOP_RIGHT">
+                    <TextField prefWidth="60" prefHeight="30" >
+
+                    </TextField>
+                </VBox>
+
+            </HBox>
+
             <HBox>
                 <Label  style="" text="Compétence 3 - Administrer"></Label>
                 <TextField maxWidth="40">
@@ -79,7 +95,13 @@
 
 
 
+
+
         </VBox>
+    </HBox>
+    <HBox alignment="BOTTOM_RIGHT" >
+        <Button text="Tracer">  </Button>
+        <Button text="Vider">  </Button>
     </HBox>
 
 </Pane>
